@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PTE Core Practice Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="startScreen">
+  <h1>PTE Core Practice Test</h1>
+  <p>Reading • Grammar • Vocabulary Assessment</p>
+  <button onclick="startTest()">Start Test</button>
+</div>
+
+<div id="testScreen" class="hidden">
+
+  <div class="topBar">
+    <div>Time Left: <span id="timer">05:00</span></div>
+    <div>Question: <span id="qNum">1</span>/10</div>
+  </div>
+
+  <div class="progress">
+    <div id="progressBar"></div>
+  </div>
+
+  <div id="questionBox"></div>
+
+  <div id="options"></div>
+
+  <button onclick="nextQuestion()">Next</button>
+</div>
+
+<div id="resultScreen" class="hidden">
+  <h2>Language Analysis Report</h2>
+  <div id="score"></div>
+
+  <div id="loading">Generating feedback...</div>
+
+  <div id="finalMessage"></div>
+</div>
+
+<audio id="bgMusic" loop>
+  <source src="assets/instrumental.mp3" type="audio/mp3">
+</audio>
+
+<script src="questions.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
