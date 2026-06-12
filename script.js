@@ -105,7 +105,6 @@ Pan mara dil ma tu roj astos.
 
 Aapan veglya bhashat bolto...
 
-
 Pan feelings same aahet ❤️
 
 Distance khup ahe...
